@@ -1,0 +1,83 @@
+{
+  "type": "Topology",
+  "arcs": [],
+  "objects": {
+    "countries": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "type": "Polygon",
+          "arcs": [[0]],
+          "id": "USA",
+          "properties": { "name": "United States" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[1]],
+          "id": "CAN",
+          "properties": { "name": "Canada" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[2]],
+          "id": "MEX",
+          "properties": { "name": "Mexico" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[3]],
+          "id": "GBR",
+          "properties": { "name": "United Kingdom" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[4]],
+          "id": "FRA",
+          "properties": { "name": "France" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[5]],
+          "id": "DEU",
+          "properties": { "name": "Germany" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[6]],
+          "id": "CHN",
+          "properties": { "name": "China" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[7]],
+          "id": "JPN",
+          "properties": { "name": "Japan" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[8]],
+          "id": "IND",
+          "properties": { "name": "India" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[9]],
+          "id": "BRA",
+          "properties": { "name": "Brazil" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[10]],
+          "id": "RUS",
+          "properties": { "name": "Russia" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[11]],
+          "id": "AUS",
+          "properties": { "name": "Australia" }
+        }
+      ]
+    }
+  }
+}

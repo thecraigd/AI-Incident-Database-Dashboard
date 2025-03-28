@@ -1,0 +1,28 @@
+{
+  "name": "ai_safety_vis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "3D Visualization of AI Incidents Database",
+  "dependencies": {
+    "@react-three/drei": "^8.0.0",
+    "@react-three/fiber": "^8.15.16",
+    "csv-parser": "^3.2.0",
+    "d3": "^7.9.0",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "next": "^15.2.4",
+    "papaparse": "^5.5.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.174.0"
+  }
+}
