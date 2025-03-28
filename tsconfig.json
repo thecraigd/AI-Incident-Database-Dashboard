@@ -1,4 +1,3 @@
-cat > tsconfig.json << EOL
 {
   "compilerOptions": {
     "target": "es5",
