@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "prepare-data": "node src/scripts/prepare-data.js",
+    "fix-data": "node fix-data.js",
     "dev": "next dev",
-    "build": "npm run prepare-data && next build",
+    "build": "npm run fix-data && next build",
     "start": "next start",
     "lint": "next lint"
   },
