@@ -19,7 +19,7 @@ const fetchMockAIIncidentData = () => {
   
   const severityLevels = ['Low', 'Medium', 'High', 'Critical'];
   
-  const getRandomDate = (start, end) => {
+  const getRandomDate = (start: Date, end: Date): Date => {
     return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
   };
   
