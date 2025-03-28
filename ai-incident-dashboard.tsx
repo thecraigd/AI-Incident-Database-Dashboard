@@ -42,7 +42,7 @@ const fetchMockAIIncidentData = () => {
   }
   
   // Sort by date
-  return incidents.sort((a, b) => a.date - b.date);
+  return incidents.sort((a, b) => a.date.getTime() - b.date.getTime());
 };
 
 const AISafetyIncidentTracker = () => {
