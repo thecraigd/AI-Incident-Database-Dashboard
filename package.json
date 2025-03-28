@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@types/d3": "^7.4.1",
+    "@types/lodash": "^4.17.16",
     "@types/node": "^20.8.2",
     "@types/react": "^18.2.22",
     "eslint": "^8.50.0",
